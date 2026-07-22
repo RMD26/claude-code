@@ -32,7 +32,7 @@ Open http://localhost:3000.
 | Variable            | Required | Description                                             |
 | ------------------- | -------- | ------------------------------------------------------- |
 | `ANTHROPIC_API_KEY` | yes      | Your Anthropic API key (server-side only).              |
-| `ANTHROPIC_MODEL`   | no       | Model id. Defaults to `claude-3-5-sonnet-latest`.       |
+| `ANTHROPIC_MODEL`   | no       | Model id (must be accessible to your account). Defaults to `claude-sonnet-5`. |
 
 ## Scripts
 

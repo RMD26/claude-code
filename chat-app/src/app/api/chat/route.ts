@@ -4,7 +4,7 @@ import type { ChatMessage } from "@/lib/types";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-const DEFAULT_MODEL = "claude-3-5-sonnet-latest";
+const DEFAULT_MODEL = "claude-sonnet-5";
 const MAX_TOKENS = 1024;
 
 function isValidMessages(value: unknown): value is ChatMessage[] {
